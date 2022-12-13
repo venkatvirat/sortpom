@@ -445,9 +445,15 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>deployment</id>
+      <name>my snapshot repository</name>
+      <url>http://15.206.159.109:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
+    <repository>
+      <id>deployment</id>
+      <name>release repositopry</name>
+      <url>http://15.206.159.109:8081/repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
 
   <!-- Profiles -->
