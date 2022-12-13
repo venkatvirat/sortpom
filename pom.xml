@@ -446,7 +446,8 @@
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+       </url>http://15.206.159.109:8081/repository/maven-snapshots/</url>
+        </url>http://15.206.159.109:8081/repository/maven-releases/</url>
     </snapshotRepository>
   </distributionManagement>
 
